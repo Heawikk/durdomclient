@@ -1,0 +1,61 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="StrServers">SERVERS</sys:String>
+    <sys:String x:Key="StrPasteClipboard">+ Clipboard</sys:String>
+    <sys:String x:Key="StrRemove">Remove</sys:String>
+    <sys:String x:Key="StrSubscriptions">SUBSCRIPTIONS</sys:String>
+    <sys:String x:Key="StrUpdateAll">Update All</sys:String>
+    <sys:String x:Key="StrAddSub">+ Add Sub</sys:String>
+
+    <sys:String x:Key="StrProxyMode">PROXY MODE</sys:String>
+    <sys:String x:Key="StrSystemProxy">System Proxy  (HTTP / SOCKS5)</sys:String>
+    <sys:String x:Key="StrTunMode">TUN Mode  (full VPN, admin required)</sys:String>
+    <sys:String x:Key="StrRouting">ROUTING</sys:String>
+    <sys:String x:Key="StrRoutingGlobal">Global  —  all traffic via proxy</sys:String>
+    <sys:String x:Key="StrRoutingGFW">GFWList  —  CN direct, others proxy</sys:String>
+    <sys:String x:Key="StrRoutingDirect">Direct  —  bypass proxy</sys:String>
+
+    <sys:String x:Key="StrConnect">CONNECT</sys:String>
+    <sys:String x:Key="StrDisconnect">DISCONNECT</sys:String>
+    <sys:String x:Key="StrNoServerSelected">No server selected</sys:String>
+
+    <sys:String x:Key="StrLog">LOG</sys:String>
+    <sys:String x:Key="StrPause">Pause</sys:String>
+    <sys:String x:Key="StrResume">Resume</sys:String>
+    <sys:String x:Key="StrClear">Clear</sys:String>
+
+    <sys:String x:Key="StrMinimize">Minimize</sys:String>
+    <sys:String x:Key="StrMaximize">Maximize</sys:String>
+    <sys:String x:Key="StrClose">Close</sys:String>
+
+    <sys:String x:Key="StrSubWindowTitle">IMPORT / SUBSCRIPTIONS</sys:String>
+    <sys:String x:Key="StrAddSubscription">ADD SUBSCRIPTION</sys:String>
+    <sys:String x:Key="StrSubName">Name</sys:String>
+    <sys:String x:Key="StrSubUrl">URL  (https://...)</sys:String>
+    <sys:String x:Key="StrAddAndUpdate">Add and Update</sys:String>
+    <sys:String x:Key="StrImportVless">IMPORT vless:// LINKS</sys:String>
+    <sys:String x:Key="StrVlessPaste">Paste one or more vless:// links, one per line:</sys:String>
+    <sys:String x:Key="StrImport">Import</sys:String>
+    <sys:String x:Key="StrActiveSubscriptions">ACTIVE SUBSCRIPTIONS</sys:String>
+    <sys:String x:Key="StrRemoveSelected">Remove Selected</sys:String>
+    <sys:String x:Key="StrServersOf"> servers  ·  </sys:String>
+
+    <sys:String x:Key="StrTrayShow">Show</sys:String>
+    <sys:String x:Key="StrTrayExit">Exit</sys:String>
+
+    <sys:String x:Key="StrErrEnterUrl">Please enter a subscription URL.</sys:String>
+    <sys:String x:Key="StrErrInvalidUrl">Invalid URL. Only http/https is supported.</sys:String>
+    <sys:String x:Key="StrDownloading">Downloading subscription...</sys:String>
+    <sys:String x:Key="StrAdded">Added successfully.</sys:String>
+    <sys:String x:Key="StrNoSelection">No subscription selected.</sys:String>
+
+    <sys:String x:Key="StrPingAll">Ping</sys:String>
+
+    <sys:String x:Key="StrExclusions">Exclusions</sys:String>
+    <sys:String x:Key="StrExclusionsTitle">PROXY EXCLUSIONS</sys:String>
+    <sys:String x:Key="StrExclusionsHint">IPs, CIDRs, and domains listed here bypass the proxy and connect directly. Changes take effect on next connection.</sys:String>
+    <sys:String x:Key="StrExclusionsAdd">+ Add</sys:String>
+    <sys:String x:Key="StrExclusionsSave">Save and Close</sys:String>
+</ResourceDictionary>
