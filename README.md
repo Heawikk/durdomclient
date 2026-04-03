@@ -11,5 +11,7 @@ and maybe more...
 
 ## 💡 To-Do
 - Fix TUN mode
+- Light Theme
+- Verison Info and Update Button
 - Android support
 - Linux support
