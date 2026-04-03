@@ -10,7 +10,6 @@ A simple and user-friendly client for working with proxy and VPN connections.
 and maybe more...
 
 ## 💡 To-Do
-- Subscription info (used GB, remaining traffic, expiration date)
 - Fix TUN mode
 - Android support
 - Linux support
